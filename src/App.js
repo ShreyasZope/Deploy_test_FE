@@ -8,13 +8,13 @@ import './App.css';
 
 function App() {
   return (
-    <Router> {/* Wrap your app with the Router */}
+    <Router>
       <div className="App">
         <Routes>
-          <Route path="/signup" element={<Signup />} /> {/* Define a route for the Signup component */}
+          <Route path="/signup" element={<Signup />} />
         </Routes>
         <Routes>
-          <Route path="/" element={<Home />} /> {/* Define a route for the Signup component */}
+          <Route path="/" element={<Home />} />
         </Routes>
       </div>
     </Router>
