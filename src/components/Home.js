@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function Home() {
+export const Home = () => { //Named export, correct syntax
   return (
     <div>
       Home Page
@@ -9,6 +9,6 @@ function Home() {
       </Link>
     </div>
   );
-}
+};
 
-export default Home;
+
